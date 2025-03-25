@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Toaster, toast } from 'sonner';
 import {Provider} from 'react-redux'
 import store from '../redux/store'
-import UserLayout from '../src/components/Layout/UserLayout'
+import UserLayout from './components/layout/UserLayout'
 import Home from '../src/pages/Home'
-import ProtectedRoute from '../src/components/Common/ProtectedRoute'
+import ProtectedRoute from './middleware/ProtectedRoute'
 import AdminHome from '../src/components/Admin/AdminHome'
 import AdminLayout from '../src/components/Admin/AdminHome'
 
